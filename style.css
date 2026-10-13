@@ -1,0 +1,154 @@
+
+/* Two Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Main page */
+body {
+    margin: 0;
+    background-color: #b5a08a;
+    color: #352a25;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #c8b49e;
+}
+
+/* Small heading */
+.small-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #765641;
+}
+
+/* Song title */
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+/* Artist name */
+header h2 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #765641;
+}
+
+/* Description */
+.description {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #59473b;
+    margin-top: 25px;
+}
+
+/* Main content */
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+/* Song sections */
+section {
+    margin-bottom: 70px;
+}
+
+/* Section headings */
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #765641;
+    margin-bottom: 30px;
+}
+
+/* Soft lyrics */
+.soft {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    color: #59473b;
+    margin-bottom: 20px;
+}
+
+/* Regular lyrics */
+.normal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #352a25;
+    margin-top: 25px;
+}
+
+/* Repeated words stand out */
+.emphasis {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    color: #4c3025;
+    margin-bottom: 15px;
+}
+
+/* Ending section */
+.ending {
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Final lyrics */
+.final-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.8;
+    letter-spacing: 3px;
+    color: #59473b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #c8b49e;
+    color: #554438;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 46px;
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+
+    .emphasis {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .final-line {
+        font-size: 26px;
+    }
+}
